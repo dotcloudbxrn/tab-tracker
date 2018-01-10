@@ -7,5 +7,8 @@ export default {
     // you just return a post request with the first parameter
     // as an endpoint
     return Api().post('register', credentials)
+  },
+  login (credentials) {
+    return Api().post('login', credentials)
   }
 }
